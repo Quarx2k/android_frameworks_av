@@ -1049,7 +1049,6 @@ status_t MPEG4Extractor::parseChunk(off64_t *offset, int depth) {
 
         case FOURCC('m', 'p', '4', 'a'):
         case FOURCC('.', 'm', 'p', '3'):
->>>>>>> cyan/jellybean
         case FOURCC('s', 'a', 'm', 'r'):
         case FOURCC('s', 'a', 'w', 'b'):
 #ifdef QCOM_HARDWARE
